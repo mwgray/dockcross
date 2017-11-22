@@ -9,7 +9,8 @@ RUN dpkg --add-architecture i386 && \
     libstdc++6:i386 \
     libbz2-dev:i386 \
     libexpat1-dev:i386 \
-    ncurses-dev:i386
+    ncurses-dev:i386 \
+    python-dev:i386
 
 ENV CROSS_TRIPLE i686-linux-gnu
 ENV CROSS_ROOT /usr/${CROSS_TRIPLE}
